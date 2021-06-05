@@ -1,0 +1,20 @@
+{
+  "name": "stats-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "Design preview for the Stats preview card component coding challenge, created on 5 June 2021",
+  "main": "index.js",
+  "scripts": {
+    "devserver": "browser-sync start --server  --watch --no-inject-changes",
+    "watch:sass": "sass scss/main.scss css/style.css --watch --no-source-map",
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "compile:sass": "sass scss/main.scss css/style.css --no-source-map",
+    "prefix:css": "postcss --use autoprefixer -b 'last 100 versions' css/style.css --output css/style.css",
+    "prettier": "npx prettier --write .",
+    "build": "npm-run-all compile:sass  prefix:css prettier"
+  },
+  "keywords": [
+    "review card component"
+  ],
+  "author": "Vanza Setia",
+  "license": "ISC"
+}

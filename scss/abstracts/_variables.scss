@@ -1,0 +1,29 @@
+$default-html-font-size: 100% !default;
+$black: rgb(17, 17, 17) !default;
+$white: rgb(255, 255, 255) !default;
+
+// Specific Color For This Project
+$very-dark-blue: rgb(9, 11, 26);
+$dark-desaturated-blue: rgb(27, 25, 56);
+$soft-violet: rgb(170, 92, 219);
+$slightly-transparent-white-1: rgba(255, 255, 255, 0.75);
+$slightly-transparent-white-2: rgba(255, 255, 255, 0.6);
+
+$main-background: $very-dark-blue;
+$card-background: $dark-desaturated-blue;
+$accent-color: $soft-violet;
+$main-heading-stats: $white;
+$main-paragraph: $slightly-transparent-white-1;
+$stats-heading: $slightly-transparent-white-2;
+
+$breakpoints-up: (
+  'small': 31.25em,
+  'medium': 43.75em,
+  'big': 90em
+);
+
+$breakpoints-down: (
+  'small': 31.1875em,
+  'medium': 43.6875em,
+  'big': 89.9375em
+);
