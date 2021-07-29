@@ -1,29 +1,23 @@
+// Default style that I currently use on this project
 $default-html-font-size: 100% !default;
 $black: rgb(17, 17, 17) !default;
 $white: rgb(255, 255, 255) !default;
+$selection-bg: rgb(139, 44, 199) !default;
 
-// Specific Color For This Project
-$very-dark-blue: rgb(9, 11, 26);
-$dark-desaturated-blue: rgb(27, 25, 56);
-$soft-violet: rgb(170, 92, 219);
-$slightly-transparent-white-1: rgba(255, 255, 255, 0.75);
-$slightly-transparent-white-2: rgba(255, 255, 255, 0.6);
+// Primary Color
+$very-dark-blue: hsl(233, 47%, 7%);
+$very-desaturated-blue: hsl(244, 38%, 16%);
+$soft-violet: hsl(277, 64%, 61%);
+$slightly-transparent-white-100: hsla(0, 0%, 100%, 0.75);
+$slightly-transparent-white-200: hsla(0, 0%, 100%, 0.6);
 
-$main-background: $very-dark-blue;
-$card-background: $dark-desaturated-blue;
-$accent-color: $soft-violet;
-$main-heading-stats: $white;
-$main-paragraph: $slightly-transparent-white-1;
-$stats-heading: $slightly-transparent-white-2;
 
-$breakpoints-up: (
-  'small': 31.25em,
-  'medium': 43.75em,
-  'big': 90em
-);
-
-$breakpoints-down: (
-  'small': 31.1875em,
-  'medium': 43.6875em,
-  'big': 89.9375em
-);
+// Use Cases
+$body-bg: $very-dark-blue;
+$card-bg: $very-desaturated-blue;
+$image-overlay: $soft-violet;
+$stats-number-color: $white;
+$card-title-color: $white;
+$card-title-color--purple: $soft-violet;
+$card-description-color: $slightly-transparent-white-100;
+$stats-description: $slightly-transparent-white-200;
