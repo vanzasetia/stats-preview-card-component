@@ -8,19 +8,36 @@
   flex-direction: column-reverse;
   border-radius: 0.5em;
   background-color: $card-bg;
+  max-width: rem(435);
   overflow: hidden;
   font-family: "Inter", sans-serif;
+  
+  @media screen and (min-width: 79.9375em) {
+    align-items: center;
+    flex-direction: row;
+    max-width: rem(1200);
+  }
 }
 
 .card__text {
   padding: rem(32) rem(24);
   text-align: center;
+  
+  @media screen and (min-width: 79.9375em) {
+    padding: rem(80);
+    flex-basis: 100%;
+    text-align: left;
+  }
 }
 
 .card__title {
   margin-top: 0;
   color: $card-title-color;
   font-size: rem(28);
+  
+  @media screen and (min-width: 79.9375em) {
+    font-size: rem(40);
+  }
 }
 
 .card__title--purple {
@@ -29,10 +46,15 @@
 
 .card__description {
   color: $card-description-color;
+  max-width: rem(350);
 }
 
 .card__overlay {
   background-color: $image-overlay-color;
+  
+  @media screen and (min-width: 79.9375em) {
+    flex-basis: 100%;
+  }
 }
 
 .card__image {
@@ -46,10 +68,20 @@
 \*------------------------------------*/
 .stats {
   margin-top: rem(32);
+  
+  @media screen and (min-width: 79.9375em) {
+    margin-top: rem(50);
+    display: flex;
+  }
 }
 
 .stats__item:not(:first-child) {
   margin-top: rem(24);
+  
+  @media screen and (min-width: 79.9375em) {
+    margin-top: 0;
+    margin-left: rem(80);
+  }
 }
 
 .stats__number {

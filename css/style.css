@@ -421,19 +421,39 @@ img {
   flex-direction: column-reverse;
   border-radius: 0.5em;
   background-color: #1b1938;
+  max-width: 27.1875rem;
   overflow: hidden;
   font-family: "Inter", sans-serif;
+}
+@media screen and (min-width: 79.9375em) {
+  .card {
+    align-items: center;
+    flex-direction: row;
+    max-width: 75rem;
+  }
 }
 
 .card__text {
   padding: 2rem 1.5rem;
   text-align: center;
 }
+@media screen and (min-width: 79.9375em) {
+  .card__text {
+    padding: 5rem;
+    flex-basis: 100%;
+    text-align: left;
+  }
+}
 
 .card__title {
   margin-top: 0;
   color: white;
   font-size: 1.75rem;
+}
+@media screen and (min-width: 79.9375em) {
+  .card__title {
+    font-size: 2.5rem;
+  }
 }
 
 .card__title--purple {
@@ -442,10 +462,16 @@ img {
 
 .card__description {
   color: rgba(255, 255, 255, 0.75);
+  max-width: 21.875rem;
 }
 
 .card__overlay {
   background-color: #aa5cdb;
+}
+@media screen and (min-width: 79.9375em) {
+  .card__overlay {
+    flex-basis: 100%;
+  }
 }
 
 .card__image {
@@ -458,9 +484,21 @@ img {
 .stats {
   margin-top: 2rem;
 }
+@media screen and (min-width: 79.9375em) {
+  .stats {
+    margin-top: 3.125rem;
+    display: flex;
+  }
+}
 
 .stats__item:not(:first-child) {
   margin-top: 1.5rem;
+}
+@media screen and (min-width: 79.9375em) {
+  .stats__item:not(:first-child) {
+    margin-top: 0;
+    margin-left: 5rem;
+  }
 }
 
 .stats__number {
