@@ -365,32 +365,13 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #090b1a;
+  padding: 5rem 1.5rem;
   min-height: 100vh;
   font-size: 0.9375rem;
 }
 
 h1 {
-  line-height: 1.4;
-}
-
-h2 {
-  line-height: 1.4;
-}
-
-h3 {
-  line-height: 1.4;
-}
-
-h4 {
-  line-height: 1.4;
-}
-
-h5 {
-  line-height: 1.4;
-}
-
-h6 {
-  line-height: 1.4;
+  line-height: 1.2;
 }
 
 p {
@@ -407,8 +388,8 @@ ul {
 
 img {
   display: block;
+  width: 100%;
   height: auto;
-  max-width: 100%;
 }
 
 @font-face {
@@ -431,4 +412,69 @@ img {
   font-weight: 400;
   font-display: swap;
   src: url("../fonts/LexendDeca-Regular.woff2") format("woff2"), url("../fonts/LexendDeca-Regular.woff") format("woff");
+}
+/*------------------------------------*\
+  #CARD
+\*------------------------------------*/
+.card {
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 0.5em;
+  background-color: #1b1938;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+
+.card__text {
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.card__title {
+  margin-top: 0;
+  color: white;
+  font-size: 1.75rem;
+}
+
+.card__title--purple {
+  color: #aa5cdb;
+}
+
+.card__description {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.card__overlay {
+  background-color: #aa5cdb;
+}
+
+.card__image {
+  mix-blend-mode: multiply;
+}
+
+/*------------------------------------*\
+  #STATS
+\*------------------------------------*/
+.stats {
+  margin-top: 2rem;
+}
+
+.stats__item:not(:first-child) {
+  margin-top: 1.5rem;
+}
+
+.stats__number {
+  display: block;
+  margin-bottom: 0.625rem;
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.stats__description {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.75rem;
 }

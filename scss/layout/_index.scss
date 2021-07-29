@@ -1,8 +1,69 @@
-// Card
+@use "../abstracts" as *;
+
+/*------------------------------------*\
+  #CARD
+\*------------------------------------*/
+.card {
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 0.5em;
+  background-color: $card-bg;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+
+.card__text {
+  padding: rem(32) rem(24);
+  text-align: center;
+}
+
+.card__title {
+  margin-top: 0;
+  color: $card-title-color;
+  font-size: rem(28);
+}
+
+.card__title--purple {
+  color: $card-title-color--purple;
+}
+
+.card__description {
+  color: $card-description-color;
+}
+
+.card__overlay {
+  background-color: $image-overlay-color;
+}
+
+.card__image {
+  mix-blend-mode: multiply;
+}
 
 
 
+/*------------------------------------*\
+  #STATS
+\*------------------------------------*/
+.stats {
+  margin-top: rem(32);
+}
 
+.stats__item:not(:first-child) {
+  margin-top: rem(24);
+}
 
+.stats__number {
+  display: block;
+  margin-bottom: rem(10);
+  color: $stats-number-color;
+  font-weight: 700;
+  font-size: rem(24);
+}
 
-// Stats
+.stats__description {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $stats-description-color;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: rem(12);
+}
