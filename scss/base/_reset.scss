@@ -28,15 +28,14 @@ body {
   align-items: center;
   justify-content: center;
   background-color: $body-bg;
+  padding: rem(80) rem(24);
   min-height: 100vh;
   font-size: rem(15);
 }
 
 // h1 - h6
-@for $i from 1 through 6 {
-  h#{$i} {
-    line-height: 1.4;
-  }
+h1 {
+  line-height: 1.2;
 }
 
 p {
@@ -53,6 +52,6 @@ ul {
 
 img {
   display: block;
+  width: 100%;
   height: auto;
-  max-width: 100%;
 }
