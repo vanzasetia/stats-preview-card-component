@@ -19,7 +19,7 @@
 
 - [🌍 Live Review](https://vanzastatscardcomponent.netlify.app/)
 - [👉 Give feedback on Frontend Mentor platform](https://www.frontendmentor.io/solutions/stats-card-components-html5-css3-sass-4CzuajXQF)
-- [🐦 Give Feedback on Twitter]()
+- [🐦 Give Feedback on Twitter](https://twitter.com/vanzasetia/status/1420692932152094733?s=19)
 
 ## Table of contents
 
