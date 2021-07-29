@@ -405,6 +405,12 @@ ul {
   list-style: none;
 }
 
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
 @font-face {
   font-family: "Inter";
   font-style: normal;
