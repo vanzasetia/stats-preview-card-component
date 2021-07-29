@@ -89,16 +89,38 @@
   <title>Vanza Setia | Stats Card Component</title>
 </head>
 <body dir="ltr">
-  
-  <!--
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-  -->
+  <main>
+    <article class="card">
+      <div class="card__text">
+        <h1 class="card__title">Get <span class="card__title--purple">insights</span> that help your business grow.
+        </h1>
+        <p class="card__description">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+          experience, and overall efficiency.
+        </p>
+        <ul class="stats">
+          <li class="stats__item">
+            <span class="stats__number">10k+</span>
+            <span class="stats__description">companies</span>
+          </li>
+          <li class="stats__item">
+            <span class="stats__number">314</span>
+            <span class="stats__description">templates</span>
+          </li>
+          <li class="stats__item">
+            <span class="stats__number">12m+</span>
+            <span class="stats__description">queries</span>
+          </li>
+        </ul>
+      </div>
+      <div class="card__overlay" aria-hidden="true">
+        <picture>
+          <source media="(min-width: )" srcset="./images/image-header-desktop.jpg" type="image/jpeg">
+          <source media="(max-width: )" srcset="./images/image-header-mobile.jpg" type="image/jpeg">
+          <img src="./images/image-header-mobile.jpg" alt="" width="" height="">
+        </picture>
+      </div>
+    </article>
+  </main>
 </body>
 </html>
