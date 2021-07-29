@@ -33,13 +33,21 @@
 
 I will start with the `style-guide.md` file. This time it is showing me clearly on what color that I have to use. But, there are two font families which are [Inter](https://fonts.google.com/specimen/Inter) and [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca). It doesn't tell me when I need to use Lexend Deca or Inter.
 
-## What I Learned
+So, I tried a couple times and then I found out that **COMPANIES**, **TEMPLATES**, and **QUERIES**, that needed Lexand Deca. The others text were Inter.
 
+The hardest thing on this challenge was the purple overlay. You can use pseudo element, `background-blend-mode`, and `mix-blend-mode`. I used `mix-blend-mode`, because in my opinion it's using the `image` height. So, I didn't need to add `height` manually and it's simple.
+
+Just write `mix-blend-mode: multiply` on img style and write `background-color` on it's parent element.
+
+For the responsiveness, I used flexbox, but you could use grid if you wanted. There's no specific reason for that, it's just my personal preference.
+
+## What I Learned
+* Using `mix-blend-mode` property.
+* I learned on how to use `picture` tag.
 
 ## Built With
 
-This project is created using **HTML5**, **CSS3**, and **Sass**. I
-also use CSS Grid to span the first row into two columns.
+This project is created using **HTML5**, **CSS3**, and **Sass**.
 
 <p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" width="auto" height="70px">
@@ -48,13 +56,14 @@ also use CSS Grid to span the first row into two columns.
 </p>
 
 ## Useful Resources
-
+* [mix-blend-mode - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode)
+* [picture: The Picture element - HTML: HyperText Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
 
 ## Continued development
 
 Even though it's been a while since I did this challenge, if you have
 any feedback or other comments feel free to write it down in
 **community feedback** on
-[Frontend Mentor](https://www.frontendmentor.io/solutions/using-sass-to-finish-this-challenge-BbXdDmNH9).
+[Frontend Mentor](https://www.frontendmentor.io/solutions/stats-card-components-html5-css3-sass-4CzuajXQF).
 I will try my best to reply your comments and fixing issues that you
 have found.
