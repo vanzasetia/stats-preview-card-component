@@ -1,121 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- SEO -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta
-    name="title"
-    content="Vanza Setia | Stats Card Component"
-  />
-  <meta
-    name="description"
-    content="Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency."
-  />
-  <meta name="robots" content="index,nofollow" />
-  <meta name="author" content="Vanza Setia, venusbumi2@gmail.com" />
-  <meta
-    name="url"
-    content="https://vanzastatscardcomponent.netlify.app/"
-  />
-  <base href="/" />
-  <link
-    rel="canonical"
-    href="https://vanzastatscardcomponent.netlify.app/"
-  />
-  <!-- Open Graph Protocol -->
-  <meta
-    property="og:title"
-    content="Vanza Setia | Stats Card Component"
-  />
-  <meta
-    property="og:description"
-    content="Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency."
-  />
-  <meta
-    property="og:image"
-    content="https://vanzastatscardcomponent.netlify.app/design/desktop-preview.jpg"
-  />
-  <meta
-    property="og:url"
-    content="https://vanzastatscardcomponent.netlify.app/"
-  />
-  <meta name="twitter:card" content="summary_large_image" />
-  <!-- Prevent Google From Showing Search Box -->
-  <meta name="google" content="nositelinkssearchbox" />
-  <!-- Preloaded fonts to prevent shifting layout -->
-  <link
-    rel="preload"
-    href="./fonts/Inter-Regular.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  <link
-    rel="preload"
-    href="./fonts/Inter-Bold.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  <link
-    rel="preload"
-    href="./fonts/LexendDeca-Regular.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
-  <link rel="manifest" href="./images/site.webmanifest">
-  <link rel="mask-icon" href="./images/safari-pinned-tab.svg" color="#5bbad5">
-  <link rel="shortcut icon" href="./images/favicon.ico">
-  <meta name="msapplication-TileColor" content="#2d89ef">
-  <meta name="msapplication-config" content="./images/browserconfig.xml">
-  <meta name="theme-color" content="#ffffff">
-  <!-- Current CSS -->
-  <link rel="stylesheet" href="./css/style.css">
-  <!-- Minified CSS -->
-  <!--
-  <link rel="stylesheet" href="./css/style.min.css">
-  -->
-  <title>Vanza Setia | Stats Card Component</title>
-</head>
-<body dir="ltr">
-  <main>
-    <article class="card">
-      <div class="card__text">
-        <h1 class="card__title">Get <span class="card__title--purple">insights</span> that help your business grow.
-        </h1>
-        <p class="card__description">
-          Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-          experience, and overall efficiency.
-        </p>
-        <ul class="stats">
-          <li class="stats__item">
-            <span class="stats__number">10k+</span>
-            <span class="stats__description">companies</span>
-          </li>
-          <li class="stats__item">
-            <span class="stats__number">314</span>
-            <span class="stats__description">templates</span>
-          </li>
-          <li class="stats__item">
-            <span class="stats__number">12M+</span>
-            <span class="stats__description">queries</span>
-          </li>
-        </ul>
-      </div>
-      <div class="card__overlay" aria-hidden="true">
-        <picture>
-          <source media="(min-width: 64em)" srcset="./images/image-header-desktop.jpg" type="image/jpeg">
-          <source media="(max-width: 63.9375em)" srcset="./images/image-header-mobile.jpg" type="image/jpeg">
-          <img class="card__image" src="./images/image-header-mobile.jpg" alt="" width="320" height="240">
-        </picture>
-      </div>
-    </article>
-  </main>
-</body>
+  <head>
+    <!-- SEO -->
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta name="title" content="Vanza Setia | Stats Card Component" />
+    <meta
+      name="description"
+      content="Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency."
+    />
+    <meta name="robots" content="index,nofollow" />
+    <meta name="author" content="Vanza Setia, venusbumi2@gmail.com" />
+    <meta
+      name="url"
+      content="https://vanzastatscardcomponent.netlify.app/"
+    />
+    <base href="/" />
+    <link
+      rel="canonical"
+      href="https://vanzastatscardcomponent.netlify.app/"
+    />
+    <!-- Open Graph Protocol -->
+    <meta
+      property="og:title"
+      content="Vanza Setia | Stats Card Component"
+    />
+    <meta
+      property="og:description"
+      content="Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency."
+    />
+    <meta
+      property="og:image"
+      content="https://vanzastatscardcomponent.netlify.app/design/desktop-preview.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://vanzastatscardcomponent.netlify.app/"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- Prevent Google From Showing Search Box -->
+    <meta name="google" content="nositelinkssearchbox" />
+    <!-- Preloaded fonts to prevent shifting layout -->
+    <link
+      rel="preload"
+      href="./fonts/Inter-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./fonts/Inter-Bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./fonts/LexendDeca-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./images/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./images/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#2d89ef" />
+    <meta
+      name="msapplication-config"
+      content="./images/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Minified CSS -->
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>Vanza Setia | Stats Card Component</title>
+  </head>
+  <body dir="ltr">
+    <main>
+      <article class="card">
+        <div class="card__text">
+          <h1 class="card__title">
+            Get <span class="card__title--purple">insights</span> that
+            help your business grow.
+          </h1>
+          <p class="card__description">
+            Discover the benefits of data analytics and make better
+            decisions regarding revenue, customer experience, and
+            overall efficiency.
+          </p>
+          <ul class="stats">
+            <li class="stats__item">
+              <span class="stats__number">10k+</span>
+              <span class="stats__description">companies</span>
+            </li>
+            <li class="stats__item">
+              <span class="stats__number">314</span>
+              <span class="stats__description">templates</span>
+            </li>
+            <li class="stats__item">
+              <span class="stats__number">12M+</span>
+              <span class="stats__description">queries</span>
+            </li>
+          </ul>
+        </div>
+        <div class="card__overlay" aria-hidden="true">
+          <picture>
+            <source
+              media="(min-width: 64em)"
+              srcset="./images/image-header-desktop.jpg"
+              type="image/jpeg"
+            />
+            <source
+              media="(max-width: 63.9375em)"
+              srcset="./images/image-header-mobile.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="card__image"
+              src="./images/image-header-mobile.jpg"
+              alt=""
+              width="320"
+              height="240"
+            />
+          </picture>
+        </div>
+      </article>
+    </main>
+  </body>
 </html>
