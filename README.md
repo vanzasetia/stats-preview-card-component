@@ -33,7 +33,7 @@
 
 I will start with the `style-guide.md` file. This time it is showing me clearly on what color that I have to use. But, there are two font families which are [Inter](https://fonts.google.com/specimen/Inter) and [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca). It doesn't tell me when I need to use Lexend Deca or Inter.
 
-So, I tried a couple times and then I found out that **COMPANIES**, **TEMPLATES**, and **QUERIES**, that needed Lexand Deca. The others text were Inter.
+So, I tried a couple times and then I found out that **COMPANIES**, **TEMPLATES**, and **QUERIES**, that needed `Lexend Deca`. The others text were `Inter`.
 
 The hardest thing on this challenge was the purple overlay. You can use pseudo element, `background-blend-mode`, and `mix-blend-mode`. I used `mix-blend-mode`, because in my opinion it's using the `image` height. So, I didn't need to add `height` manually and it's simple.
 
