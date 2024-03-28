@@ -1,35 +1,18 @@
 # Stats Preview Card Component
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Difficulty-Newbie-14C2C8?style=for-the-badge&logo=frontendmentor" alt="Difficulty">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/vanzasetia/stats-preview-card-component?style=for-the-badge&logo=github">
-  <a href="https://twitter.com/vanzasetia" target="_blank"><img src="https://img.shields.io/twitter/follow/vanzasetia?logo=twitter&style=for-the-badge" alt="Twitter followers." /></a>
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vanzasetia/stats-preview-card-component?style=for-the-badge&logo=git">
-  <img alt="Netlify" src="https://img.shields.io/netlify/2d2496d3-5e67-4d25-9c98-e8f1f4909066?style=for-the-badge&logo=netlify">
-</p>
-<p>
-  <a href="http://jigsaw.w3.org/css-validator/check/referer">
-    <img style="border:0;width:88px;height:31px"
-        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-        alt="Valid CSS!" />
-    </a>
-</p>
+## Disclaimer
 
-## Feedback and Live Review
+This project is solely for learning purposes. I take no any responsibility or liability for the accuracy, completeness, or usefulness of any information provided in this project. You should not use it as a reference for creating your project.
 
-- [🌍 Live Review](https://vanzastatscardcomponent.netlify.app/)
-- [👉 Give feedback on Frontend Mentor platform](https://www.frontendmentor.io/solutions/stats-card-components-html5-css3-sass-4CzuajXQF)
-- [🐦 Give Feedback on Twitter](https://twitter.com/vanzasetia/status/1420692932152094733?s=19)
+I am currently no longer working on this project.
 
-## Table of contents
+## Links
 
-- [Story](#the-story-when-doing-this-challenge)
-- [What I Learned](#what-i-learned)
-- [Technology that I used](#built-with)
-- [Useful Resources](#useful-resources)
-- [Continued Development](#continued-development)
+- [Live Review](https://vanzastatscardcomponent.netlify.app/)
+- [Give feedback on Frontend Mentor platform](https://www.frontendmentor.io/solutions/stats-card-components-html5-css3-sass-4CzuajXQF)
 
 ## The Story When Doing This Challenge
+
 I found out that **COMPANIES**, **TEMPLATES**, and **QUERIES**, that needed `Lexend Deca`. The others text were `Inter`.
 
 The hardest thing on this challenge was the purple overlay. You can use pseudo element, `background-blend-mode`, and `mix-blend-mode`. I used `mix-blend-mode`, because in my opinion it's using the `image` height. So, I didn't need to add `height` manually and it's simple.
@@ -39,28 +22,19 @@ Just write `mix-blend-mode: multiply` on img style and write `background-color` 
 For the responsiveness, I used flexbox, but you could use grid if you wanted. There's no specific reason for that, it's just my personal preference.
 
 ## What I Learned
-* Using `mix-blend-mode` property.
-* I learned on how to use `picture` tag.
+
+- Using `mix-blend-mode` property.
+- I learned on how to use `picture` tag.
 
 ## Built With
 
 This project is created using **HTML5**, **CSS3**, and **Sass**.
 
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" width="auto" height="70px">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" width="auto" height="70px">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="" width="auto" height="70px">
-</p>
-
 ## Useful Resources
-* [mix-blend-mode - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode)
-* [picture: The Picture element - HTML: HyperText Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
 
-## Continued development
+- [mix-blend-mode - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode)
+- [picture: The Picture element - HTML: HyperText Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
 
-Even though it's been a while since I did this challenge, if you have
-any feedback or other comments feel free to write it down in
-**community feedback** on
-[Frontend Mentor](https://www.frontendmentor.io/solutions/stats-card-components-html5-css3-sass-4CzuajXQF).
-I will try my best to reply your comments and fixing issues that you
-have found.
+## License
+
+[MIT](./LICENSE)
